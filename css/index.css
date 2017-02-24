@@ -1,0 +1,107 @@
+
+.people {
+	overflow: auto;
+	padding: 0 10px 20px 10px;
+	margin: 10px 10px 10px 10px;
+}
+
+
+.name {
+	width: 20%;
+	float: left;
+}
+
+.biography {
+	width: 80%;
+	float: left;
+}
+
+.my-paragraph-indent {
+	padding: 10px;
+}
+
+.first-line {
+	color: red;
+}
+
+.me {
+
+}
+
+.name > h2 {
+	font-style: italic;
+}
+
+.name > h2 > a, .name > a {
+	color: inherit;
+	text-decoration: none;
+}
+
+/*-----------------------------*/
+/* My backgroundcolor pick */
+/*-----------------------------*/
+
+#itto {
+	background-color: #9cf;
+	color: #06f;
+}
+
+#Glosbe {
+	background-color: #f66;
+	color: #030;
+}
+
+#naruto {
+	background-color: #cf9;
+	color: #404040;
+}
+
+#brad {
+	background-color: #fc9;
+	color: #4d4d33;
+}
+
+/*-----------------------------*/
+/*border color for person i admire */
+/*-----------------------------*/
+
+#itto > .name > figure {
+	border-color: #cc0;
+}
+
+#Glosbe > .name > figure  {
+	border-color: #fff;
+}
+
+#naruto > .name > figure {
+	border-color: #000;
+}
+
+#brad > .name > figure {
+	border-color: #33c;
+}
+
+/*-----------------------------*/
+/*bover*/
+/*-----------------------------*/
+
+#itto > .name > h2 > a:hover{
+	color: #9cf;
+	background-color: #06f;
+}
+
+#Glosbe > .name > h2 > a:hover {
+	color: #f66;
+	background-color: #030;
+}
+
+#naruto > .name > h2 > a:hover {
+	color: #cf9;
+	background-color: #404040;
+}
+
+#brad > .name > h2 > a:hover {
+	color: #fc9;
+	background-color: #4d4d33;
+}
+
